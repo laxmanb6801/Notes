@@ -141,3 +141,9 @@ ng update @angular/cli @angular/core @angular/material @angular/cdk
 
 
 db.books.insert({"id":1,"bookName":"Java","bookAuthor":"Laxman",bookPrice":100.00})
+
+
+
+
+jsp spring boot custom login
+https://hellokoding.com/registration-and-login-example-with-spring-security-spring-boot-spring-data-jpa-hsql-jsp/
