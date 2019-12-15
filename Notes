@@ -1,0 +1,143 @@
+udmey
+https://www.udemy.com/course/1000-watt-presence/?gclid=EAIaIQobChMIipS4vLy05gIVNQC3AB1DEwXeEAEYASAAEgKQCPD_BwE&moon=RHEA1527&utm_campaign=INTL-YT-PROS-NONP-PerDev-ASO1-MultiTarg-MidF-tCPA-Confidence-EN-IND_._ci_120600_._sl_IND_._vi_NONP_._sd_All_._la_EN_._&utm_content=Overlay&utm_medium=udemyads&utm_source=youtube-intl&utm_term=_._ag_78901286379_._ad_384519238924_._de_c_._dm__._pl_youtube.com_._ti__._li_1007796_._pd__._
+
+Download link
+https://www.mongodb.com/download-center/community
+
+free projects:
+https://www.javaguides.net/2018/10/free-open-source-projects-using-spring-boot.html
+
+login angular 8 
+https://www.javaguides.net/2019/10/angular-8-spring-boot-login-and-logout.html
+
+perfect example:
+
+https://www.djamware.com/post/5d3332980707cc65eac46c7b/spring-boot-security-mongodb-angular-8-build-authentication
+
+thymleaf but good
+https://www.djamware.com/post/5b2f000880aca77b083240b2/spring-boot-security-and-data-mongodb-authentication-example
+
+installation youtube below link
+
+youtube.com/watch?v=FwMwO8pXfq0
+
+after installl
+ go to c folder
+
+copy bin path
+
+cd bin path
+
+
+
+mongod ->this commond start the mongo but howver it will give an error we need to make belwo changes
+
+go to c drive create folder called data  and insside data bd folder
+
+start again mongodbb  usingcmd--> mongod  
+
+open again new terminal (but dont close previous opened one)
+
+go to new opeend termiinal and cd bin path
+
+use cmd-->mongo    it will start mongo shell
+
+after starting 
+
+to check dbs use cmd--->show dbs
+to create databse cmd---> use mylibs
+again use cmd -->show dbs 
+it will show olny old dbs because we have to insert our dbs 
+use commond to insert --->db.books.insert({"name":"monogo book"})
+paranthsis and curly brackets
+click enter it will show record inserted
+
+use cmd --->show dbs
+
+it will show our commond
+
+use commnd --->show collections;
+click enter it will show all collections like books(will call collections here not table)
+
+use cmd ->bd.books.find()
+click enter it will show inserted value 
+--now close both the terminal and open only one terminal and use below cmnd
+cmd-->mongod  (it will give not found internal or external batch because we need to set enviromnet path using advance system settimngs)
+
+now go to bin directory
+ritgh click pc 
+system
+advance system setting
+system vartiable path double click and add binary directory path
+
+restart windows
+
+open terminal 
+
+use without satarting mongod cmd dirextly cmd-->momgo
+
+it will start without running mongod commond
+
+
+
+
+Springboot+mongo db integration
+
+start.io.spring
+
+add dependency
+
+1>web  2>mongodb  click on generate project
+
+
+https://www.djamware.com/post/5d3332980707cc65eac46c7b/spring-boot-security-mongodb-angular-8-build-authentication
+
+
+
+with jsp
+https://www.javainuse.com/spring/boot_form_security
+
+
+
+
+node -v
+ng -v
+ng serve
+ng update --all --force
+npm install typescript@">=3.4.0 <3.6.0" --save-dev --save-exact
+
+
+C:\Windows\System32\cmd.exe
+
+
+error:
+Your global Angular CLI version (1.1.1) is greater than your local version (1.0.6). The local Angular CLI version is used.
+
+solution
+https://stackoverflow.com/questions/44525746/global-angular-cli-version-greater-than-local-version/44526528
+
+npm install --save-dev @angular/cli@latest
+
+
+error:
+ERROR in The Angular Compiler requires TypeScript >=3.4.0 and <3.5.0 but 3.5.3 was found instead.
+
+solution
+npm install typescript@">=3.4.0 <3.6.0" --save-dev --save-exact
+
+eerroor
+export '_supportsShadowDom' was not found in '@angular/cdk/platform' #17470
+solution
+ng update @angular/cli @angular/core @angular/material @angular/cdk
+
+
+
+
+
+
+
+
+
+
+
+db.books.insert({"id":1,"bookName":"Java","bookAuthor":"Laxman",bookPrice":100.00})
